@@ -15,22 +15,22 @@ export default function HomePage() {
       <header className="hero">
         <div className="wrap">
           <FadeIn delay={0}>
-            <div className="meta meta--laiton" style={{ marginBottom: 'clamp(16px,2.2vh,26px)' }}>
+            <div className="meta meta--laiton" style={{ marginBottom: 'clamp(22px,3.4vh,38px)' }}>
               Manifeste — Extrait 01
             </div>
           </FadeIn>
           <HeroTitle
-            lines={['Le monde professionnel', 'est devenu la plus vaste', 'salle de classe au monde.']}
+            lines={['Le monde forme', 'ceux qui le', 'parcourent.']}
           />
           <FadeIn delay={0.75}>
-            <p className="lead" style={{ marginTop: 'clamp(20px,2.8vh,32px)' }}>
+            <p className="lead" style={{ marginTop: 'clamp(26px,3.6vh,42px)' }}>
               Professional Institute est un écosystème mondial de formation professionnelle. Nous concevons des
               expériences d&apos;apprentissage qui placent les participants au contact direct des villes, des
               entreprises et des institutions où le travail s&apos;invente.
             </p>
           </FadeIn>
           <FadeIn delay={0.95}>
-            <div style={{ marginTop: 'clamp(22px,3vh,34px)', display: 'flex', gap: 36, flexWrap: 'wrap' }}>
+            <div style={{ marginTop: 'clamp(30px,4vh,48px)', display: 'flex', gap: 36, flexWrap: 'wrap' }}>
               <LinkQ href="/manifeste">Lire le manifeste</LinkQ>
               <LinkQ href="/reseau">Découvrir le réseau</LinkQ>
             </div>
@@ -90,9 +90,9 @@ export default function HomePage() {
           </div>
           <Reveal>
             <ParallaxFigure
-              src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=2000&q=80"
-              alt="Architecture d'un quartier d'affaires au crépuscule"
-              captionLeft="Quartier des affaires — plan architectural · I"
+              src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=2880"
+              alt="Un praticien s'adresse à une promotion de participants lors d'une masterclass"
+              captionLeft="Masterclass — un praticien face à sa promotion · I"
               captionRight="Fig. 01"
             />
           </Reveal>
@@ -211,11 +211,12 @@ export default function HomePage() {
             <Reveal delay={0.2} className="visual">
               <div className="frame">
                 <Image
-                  src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Atardecer_en_Plaza_de_Espa%C3%B1a.jpg"
-                  alt="La Plaza de España de Séville au coucher du soleil"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sevilla_Cathedral_-_Southeast.jpg/3840px-Sevilla_Cathedral_-_Southeast.jpg"
+                  alt="La cathédrale de Séville et la Giralda"
                   fill
                   sizes="(min-width: 980px) 45vw, 100vw"
                   className="object-cover"
+                  style={{ objectPosition: '68% center' }}
                 />
               </div>
               <div className="vmeta">

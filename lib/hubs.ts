@@ -39,8 +39,8 @@ export const hubs: Hub[] = [
       "C'est aussi l'un des premiers écosystèmes mondiaux de recherche en intelligence artificielle, un territoire d'innovation, de création et d'entrepreneuriat où les industries — du jeu vidéo à l'aérospatiale, de l'hôtellerie au design — se laissent approcher. Les programmes y couvrent toutes les disciplines : IA et innovation bien sûr, mais aussi business, ressources humaines, marketing, hôtellerie et créativité."
     ],
     specs: ['IA · Business · Innovation', 'RH · Marketing · Créativité', 'Hôtellerie · Design · Recherche'],
-    img: 'https://images.unsplash.com/photo-1519178614-68673b201f36?w=2200&q=80',
-    alt: 'Montréal au crépuscule depuis le belvédère du Mont-Royal'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Montreal_Skyline_from_Mont_Royal_golden_hour.jpg/3840px-Montreal_Skyline_from_Mont_Royal_golden_hour.jpg',
+    alt: "La skyline de Montréal depuis le belvédère du Mont-Royal, à l'heure dorée"
   },
   {
     slug: 'new-york',
@@ -54,8 +54,8 @@ export const hubs: Hub[] = [
       "Les programmes new-yorkais confrontent les participants à cette intensité : rencontres de dirigeants, immersions dans les quartiers d'affaires, études de cas menées là où elles se sont jouées. On en revient avec autre chose que des connaissances — une échelle de référence."
     ],
     specs: ['Finance · Médias · Consulting', 'Entrepreneuriat · Business international', 'Marketing · RH'],
-    img: 'https://images.unsplash.com/photo-1522083165195-3424ed129620?w=2200&q=80',
-    alt: 'Manhattan vue du ciel au crépuscule'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/New_York_City_skyline_with_Statue_of_Liberty_at_dusk_aerial_2018.jpg/3840px-New_York_City_skyline_with_Statue_of_Liberty_at_dusk_aerial_2018.jpg',
+    alt: "La Statue de la Liberté et Lower Manhattan à l'heure bleue"
   },
   {
     slug: 'miami',
@@ -69,8 +69,8 @@ export const hubs: Hub[] = [
       "On y apprend ce que peu d'autres villes enseignent : travailler entre deux hémisphères, en deux langues, dans des industries — luxe, hospitality, immobilier — où la relation est le produit."
     ],
     specs: ['Amérique latine · Commerce international', 'Hospitality · Immobilier', 'Luxury · Tech'],
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Miami_-_City_Skyline_from_Biscayne_Bay_1.jpg/3840px-Miami_-_City_Skyline_from_Biscayne_Bay_1.jpg',
-    alt: 'La skyline de Miami depuis la baie de Biscayne'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Twilight_Miami_Skyline.jpg/3840px-Twilight_Miami_Skyline.jpg',
+    alt: 'La skyline de Miami au crépuscule depuis la baie de Biscayne'
   },
   {
     slug: 'seville',
@@ -84,8 +84,8 @@ export const hubs: Hub[] = [
       "Les programmes sévillans plongent les participants dans cette réalité : commerce, marketing, développement international et entrepreneuriat s'y apprennent au contact d'un tissu d'entreprises où la relation humaine reste la première compétence professionnelle."
     ],
     specs: ['Tourisme · Hospitality · Commerce', 'Marketing · Développement international', 'Entrepreneuriat'],
-    img: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Atardecer_en_Plaza_de_Espa%C3%B1a.jpg',
-    alt: 'La Plaza de España de Séville au coucher du soleil'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sevilla_Cathedral_-_Southeast.jpg/3840px-Sevilla_Cathedral_-_Southeast.jpg',
+    alt: 'La cathédrale de Séville et la Giralda'
   },
   {
     slug: 'londres',
@@ -99,8 +99,8 @@ export const hubs: Hub[] = [
       "Un programme londonien est une immersion dans le business international à l'état pur : on y apprend la précision des institutions, la diversité des interlocuteurs et l'art de la négociation entre cultures."
     ],
     specs: ['Finance · Conseil · Legal', 'International Business · Innovation'],
-    img: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=2200&q=80',
-    alt: 'Londres au crépuscule'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tower_Bridge_London_Dusk_Feb_2006.jpg/3840px-Tower_Bridge_London_Dusk_Feb_2006.jpg',
+    alt: "Le Tower Bridge de Londres à l'heure bleue"
   },
   {
     slug: 'berlin',
@@ -114,8 +114,8 @@ export const hubs: Hub[] = [
       "Entre l'industrie allemande, l'un des écosystèmes startup les plus actifs du continent et une scène créative de premier plan, les programmes berlinois enseignent comment les organisations changent — et ce que cela coûte, exige et permet."
     ],
     specs: ['Industrie · Startups · Transformation', 'Manufacturing · Créativité'],
-    img: 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=2200&q=80',
-    alt: 'Berlin, la Spree et la tour de télévision'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Blue_Hour_in_Berlin.jpg/3840px-Blue_Hour_in_Berlin.jpg',
+    alt: "Berlin à l'heure bleue — la Spree, la cathédrale et la tour de télévision"
   },
   {
     slug: 'rome',
@@ -129,8 +129,8 @@ export const hubs: Hub[] = [
       "Les programmes romains explorent cette double profondeur : comprendre comment les institutions durent, et comment l'excellence — dans le luxe, le patrimoine, la culture, l'industrie italienne — devient un métier qui se transmet."
     ],
     specs: ['Institutions · Luxe · Patrimoine', 'Culture · Industrie italienne'],
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Panoramic_view_of_Rome_from_Gianicolo_Hill_01.jpg/3840px-Panoramic_view_of_Rome_from_Gianicolo_Hill_01.jpg',
-    alt: 'Panorama de Rome depuis le Janicule'
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rome_from_St_Peter%27s_Basilica_%2848853423021%29.jpg/3840px-Rome_from_St_Peter%27s_Basilica_%2848853423021%29.jpg",
+    alt: "Rome et la place Saint-Pierre depuis le dôme de la basilique, à l'heure dorée"
   },
   {
     slug: 'malte',
@@ -144,8 +144,8 @@ export const hubs: Hub[] = [
       "C'est le hub où l'anglais professionnel s'apprend dans un écosystème d'affaires réel, pas dans une salle de cours : les participants y pratiquent la langue au contact d'industries qui ne fonctionnent qu'en anglais."
     ],
     specs: ['Gaming · Finance · Anglais', 'Services internationaux · Digital'],
-    img: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Valletta_from_Sliema_-_panoramio.jpg',
-    alt: 'La Valette vue depuis Sliema'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Panorama_Malte.jpg/3840px-Panorama_Malte.jpg',
+    alt: 'La Valette — la presqu’île fortifiée au coucher du soleil'
   },
   {
     slug: 'marrakech',
@@ -159,8 +159,8 @@ export const hubs: Hub[] = [
       "Le second : une porte d'entrée sur les économies africaines en pleine construction, où le développement et l'entrepreneuriat se pensent à une échelle et à une vitesse que l'Europe a oubliées."
     ],
     specs: ['Hospitality · Luxury · Développement', 'Afrique · Entrepreneuriat'],
-    img: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Kutubiyya_Mosque%2C_Marrakesh%2C_Morocco%2C_20250124_1834_7027.jpg',
-    alt: 'La Koutoubia de Marrakech dans la lumière du soir'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Pavilion_of_the_Menara_Gardens.jpg/3840px-Pavilion_of_the_Menara_Gardens.jpg',
+    alt: 'Le pavillon des jardins de la Ménara à Marrakech, reflété dans son bassin'
   },
   {
     slug: 'seoul',
@@ -174,8 +174,8 @@ export const hubs: Hub[] = [
       "Les programmes séoulites enseignent le K-Business à la source : innovation, manufacturing, design et management coréen, au contact des organisations qui en ont fait un modèle mondial."
     ],
     specs: ['Innovation · Industrie · Tech', 'K-Business · Design · Manufacturing'],
-    img: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Seoul_Skyline_Night_2018.jpg',
-    alt: 'Séoul de nuit'
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Han_River_and_Lotte_World_Tower.jpg/3840px-Han_River_and_Lotte_World_Tower.jpg',
+    alt: 'Séoul — la Lotte World Tower et le fleuve Han'
   }
 ];
 

@@ -261,8 +261,8 @@ a.persp-row:hover h3{color:var(--outremer)}
 .f-bottom span{font-family:var(--f-meta);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#7487A5}
 
 /* ————— Hero homepage ————— */
-.hero{min-height:88svh;display:flex;flex-direction:column;justify-content:center;padding-top:76px;position:relative}
-.hero-foot{position:absolute;left:0;right:0;bottom:34px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding-top:calc(76px + clamp(28px,7vh,84px));padding-bottom:clamp(96px,14vh,150px);position:relative}
+.hero-foot{position:absolute;left:0;right:0;bottom:clamp(30px,4.4vh,46px);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 }
 
 /* Ville cliquable (page réseau) */

@@ -6,7 +6,7 @@ const EASE = [0.16, 1, 0.3, 1] as const;
 /** Titre révélé ligne par ligne, par masque. Réservé au hero. */
 export default function HeroTitle({ lines }: { lines: string[] }) {
   return (
-    <h1 className="d-xl" style={{ maxWidth: '15ch' }}>
+    <h1 className="d-xl" style={{ maxWidth: '16ch' }}>
       {lines.map((line, i) => (
         <span key={i} className="block overflow-hidden">
           <motion.span
