@@ -5,13 +5,13 @@ import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta(
   'Entreprises — Corporate Learning',
-  'Séminaires, learning expeditions et immersions internationales pour les entreprises.',
+  'Séminaires, Learning Expeditions et immersions internationales pour les entreprises.',
   '/entreprises'
 );
 
 const reasons = [
   { n: 'E—01', t: 'Un séminaire', d: "Réunir une équipe hors de ses murs, autour d'un contenu conçu — pas seulement d'un lieu." },
-  { n: 'E—02', t: 'Une learning expedition', d: "Explorer un écosystème — l'IA à Montréal, l'hospitalité à Marrakech, l'industrie à Berlin — pour en rapporter des décisions." },
+  { n: 'E—02', t: 'Une Learning Expedition', d: "Explorer un écosystème — l'IA à Montréal, l'hospitalité à Marrakech, l'industrie à Berlin — pour en rapporter des décisions." },
   { n: 'E—03', t: 'Une réflexion stratégique', d: "Sortir du quotidien pour travailler une question de fond, avec des méthodes d'intelligence collective et des regards extérieurs." },
   { n: 'E—04', t: 'Une immersion internationale', d: "Confronter ses pratiques à celles d'un autre marché, d'une autre culture de travail, d'un autre continent." },
   { n: 'E—05', t: 'Un benchmark', d: 'Observer comment d\'autres organisations résolvent les problèmes que vous vous posez.' },
@@ -40,7 +40,7 @@ export default function EntreprisesPage() {
           </div>
           <h1 className="d-xl2">Vos équipes apprennent mieux au contact d&apos;autres mondes.</h1>
           <p className="lead">
-            Séminaires, learning expeditions, immersions internationales : Professional Institute conçoit pour les
+            Séminaires, Learning Expeditions, immersions internationales : Professional Institute conçoit pour les
             entreprises des expériences d&apos;apprentissage qui confrontent leurs équipes à d&apos;autres
             organisations, d&apos;autres écosystèmes et d&apos;autres façons de travailler.
           </p>
@@ -98,7 +98,7 @@ export default function EntreprisesPage() {
               <div className="body-copy">
                 <p>
                   Le programme se conçoit à partir de vos objectifs — jamais d&apos;un format standard. Il peut se
-                  dérouler dans l&apos;un de nos dix Professional Learning Hubs, sur plusieurs hubs, ou associer vos
+                  se dérouler dans l&apos;une des villes de notre réseau, sur plusieurs destinations, ou associer vos
                   propres sites au parcours. Professional Institute en assure la conception pédagogique, la
                   coordination et la cohérence de bout en bout.
                 </p>

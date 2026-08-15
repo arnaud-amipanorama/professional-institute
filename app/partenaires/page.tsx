@@ -19,7 +19,7 @@ const publics = [
 const ways = [
   { n: 'R—01', t: 'Accueillir', d: "Ouvrir vos portes à une délégation : une visite, une rencontre d'équipes, une présentation de votre activité." },
   { n: 'R—02', t: 'Enseigner', d: 'Rejoindre la Faculty : animer une masterclass, un atelier ou une étude de cas dans votre domaine d\'expertise.' },
-  { n: 'R—03', t: 'Co-concevoir', d: 'Construire avec nous un programme, une expedition ou une publication au croisement de vos enjeux et de notre pédagogie.' }
+  { n: 'R—03', t: 'Co-concevoir', d: 'Construire avec nous un programme, une expédition ou une publication au croisement de vos enjeux et de notre pédagogie.' }
 ];
 
 export default function PartenairesPage() {

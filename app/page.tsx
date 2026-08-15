@@ -24,9 +24,9 @@ export default function HomePage() {
           />
           <FadeIn delay={0.75}>
             <p className="lead" style={{ marginTop: 'clamp(26px,3.6vh,42px)' }}>
-              Professional Institute est un écosystème mondial de formation professionnelle. Nous concevons des
-              expériences d&apos;apprentissage qui placent les participants au contact direct des villes, des
-              entreprises et des institutions où le travail s&apos;invente.
+              Professional Institute développe un réseau international de formation professionnelle. Nous concevons
+              des expériences d&apos;apprentissage immersives et sur mesure, au contact des villes, des entreprises et
+              des institutions où les métiers évoluent.
             </p>
           </FadeIn>
           <FadeIn delay={0.95}>
@@ -38,7 +38,7 @@ export default function HomePage() {
         </div>
         <FadeIn delay={1.25} className="hero-foot">
           <div className="wrap" style={{ display: 'flex', justifyContent: 'space-between', gap: 20, flexWrap: 'wrap', width: '100%' }}>
-            <span className="meta">10 Professional Learning Hubs — 3 continents</span>
+            <span className="meta">10 villes de référence — 3 continents</span>
             <span className="meta">Défiler ↓</span>
           </div>
         </FadeIn>
@@ -56,14 +56,13 @@ export default function HomePage() {
             <div className="body-copy">
               <Reveal>
                 <h2 className="d-l" style={{ marginBottom: 34, maxWidth: '22ch' }}>
-                  Nous ne construisons pas des écoles. Nous construisons une nouvelle génération
-                  d&apos;institutions éducatives.
+                  Nous développons un réseau de formation internationale, construit autour du réel.
                 </h2>
               </Reveal>
               <Reveal delay={0.1}>
                 <p className="lead" style={{ marginBottom: '1.3em' }}>
-                  Des institutions internationales, professionnelles, connectées aux entreprises, conçues autour de
-                  l&apos;expérience.
+                  Des programmes internationaux, professionnels et flexibles, conçus avec les entreprises et les
+                  partenaires locaux.
                 </p>
               </Reveal>
               <Reveal delay={0.2}>
@@ -76,9 +75,9 @@ export default function HomePage() {
               </Reveal>
               <Reveal delay={0.3}>
                 <p style={{ marginTop: '1.15em' }}>
-                  C&apos;est pourquoi nos instituts ne ressemblent pas à des écoles. Nos expériences
-                  d&apos;apprentissage sont conçues avec des entreprises, délivrées par des praticiens, et ancrées
-                  dans les villes où les industries s&apos;inventent.
+                  C&apos;est pourquoi nos programmes ne sont jamais standardisés. Ils sont conçus avec des entreprises,
+                  délivrés par des praticiens et adaptés aux villes, aux partenaires et aux objectifs de chaque
+                  groupe.
                 </p>
               </Reveal>
               <Reveal delay={0.4}>
@@ -128,14 +127,14 @@ export default function HomePage() {
               <Reveal delay={0.2}>
                 <div className="story">
                   <p>
-                    L&apos;Amérique du Nord est le continent où le travail se réinvente le plus vite — dans les
-                    laboratoires d&apos;intelligence artificielle de Montréal, les tours de Manhattan et les places du
-                    commerce international de Miami.
+                    L&apos;Amérique du Nord réunit certains des écosystèmes les plus stimulants pour observer les métiers
+                    en transformation : recherche en intelligence artificielle à Montréal, finance à New York et
+                    commerce international à Miami.
                   </p>
                   <p>
-                    American Professional Institute place ses participants au cœur de cette accélération : au contact
-                    des entreprises technologiques, des places financières et des écosystèmes d&apos;innovation qui
-                    redessinent les métiers.
+                    American Professional Institute développe des programmes ancrés dans ces environnements. Les
+                    villes et partenaires sont mobilisés selon les objectifs pédagogiques, le calendrier et le profil
+                    de chaque groupe.
                   </p>
                 </div>
               </Reveal>
@@ -159,7 +158,7 @@ export default function HomePage() {
               </div>
               <div className="vmeta">
                 <span className="meta">Montréal · New York · Miami</span>
-                <span className="meta">3 hubs</span>
+                <span className="meta">3 villes de référence</span>
               </div>
               <div className="themes">
                 <div className="theme"><span>Innovation &amp; Technologie</span><em>I</em></div>
@@ -189,14 +188,12 @@ export default function HomePage() {
               <Reveal delay={0.2}>
                 <div className="story">
                   <p>
-                    L&apos;Europe est le continent de la profondeur : des maisons centenaires, des industries
-                    d&apos;excellence, des institutions qui gouvernent le monde et des savoir-faire que personne
-                    d&apos;autre ne détient.
+                    L&apos;Europe associe des savoir-faire établis, des industries d&apos;excellence et des institutions qui
+                    structurent durablement les métiers.
                   </p>
                   <p>
-                    European Professional Institute enseigne ce que l&apos;Europe fait mieux que quiconque — le luxe,
-                    l&apos;industrie, le patrimoine, la diplomatie — au contact des villes et des organisations qui
-                    les incarnent.
+                    European Professional Institute développe des expériences autour du luxe, de l&apos;industrie, du
+                    patrimoine et de la diplomatie, en lien avec les villes et les organisations qui les incarnent.
                   </p>
                 </div>
               </Reveal>
@@ -221,7 +218,7 @@ export default function HomePage() {
               </div>
               <div className="vmeta">
                 <span className="meta">Séville · Londres · Berlin · Rome · Malte</span>
-                <span className="meta">5 hubs</span>
+                <span className="meta">5 villes de référence</span>
               </div>
               <div className="themes">
                 <div className="theme"><span>Industrie &amp; Savoir-faire</span><em>I</em></div>
@@ -246,8 +243,8 @@ export default function HomePage() {
               </Reveal>
               <Reveal delay={0.2}>
                 <p className="story" style={{ marginTop: 20, maxWidth: '46ch' }}>
-                  Au-delà des instituts, des hubs sur les terrains d&apos;apprentissage de demain — Marrakech et Séoul
-                  aujourd&apos;hui, d&apos;autres à venir.
+                  Au-delà des deux instituts, Global Learning Network ouvre progressivement de nouveaux terrains
+                  d&apos;apprentissage — Marrakech et Séoul aujourd&apos;hui, d&apos;autres villes demain.
                 </p>
               </Reveal>
             </div>
@@ -269,12 +266,12 @@ export default function HomePage() {
             </Reveal>
             <div>
               <Reveal>
-                <h2 className="d-l">Dix villes. Dix façons d&apos;apprendre le monde.</h2>
+                <h2 className="d-l">Dix villes de référence. Dix façons d&apos;apprendre le monde.</h2>
               </Reveal>
               <Reveal delay={0.1}>
                 <p className="lead" style={{ marginTop: 22 }}>
-                  Chaque ville du réseau a été choisie pour ce qu&apos;elle enseigne — et chacune accueille toutes les
-                  disciplines. En voici cinq ; les dix vivent dans le réseau.
+                  Chaque ville du réseau a été choisie pour ce qu&apos;elle peut apporter à un programme. En voici cinq ;
+                  les destinations sont activées selon les projets, les partenaires et les objectifs pédagogiques.
                 </p>
               </Reveal>
             </div>
@@ -287,10 +284,10 @@ export default function HomePage() {
       <section style={{ padding: 'clamp(40px,5vw,60px) 0 0' }}>
         <div className="wrap" style={{ display: 'flex', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap', alignItems: 'baseline' }}>
           <Reveal>
-            <span className="meta">Miami · Rome · Malte · Marrakech · Séoul — et le réseau en développement</span>
+            <span className="meta">Miami · Rome · Malte · Marrakech · Séoul — un réseau qui continue de se déployer</span>
           </Reveal>
           <Reveal delay={0.1}>
-            <LinkQ href="/reseau">Explorer les dix hubs</LinkQ>
+            <LinkQ href="/reseau">Explorer les dix villes</LinkQ>
           </Reveal>
         </div>
       </section>
@@ -311,7 +308,7 @@ export default function HomePage() {
             { href: '/learning-expeditions', n: 'II', t: 'Learning Expeditions', d: 'Notre philosophie pédagogique : la ville et le secteur comme salle de classe.' },
             { href: '/professional-visits', n: 'III', t: 'Professional Visits & Immersions', d: "L'entreprise comme faculté : visites, rencontres de dirigeants, masterclasses en entreprise." },
             { href: '/ai-emerging-skills', n: 'IV', t: 'AI & Emerging Skills', d: "Apprendre à travailler dans un monde où l'intelligence artificielle devient omniprésente." },
-            { href: '/entreprises', n: 'V', t: 'Corporate Learning', d: 'Séminaires, expeditions et immersions internationales pour les entreprises.' }
+            { href: '/entreprises', n: 'V', t: 'Corporate Learning', d: 'Séminaires, expéditions et immersions internationales pour les entreprises.' }
           ].map((r, i) => (
             <Reveal key={r.href} delay={i * 0.08}>
               <Link href={r.href} className="idx-row" style={{ display: "grid" }}>
@@ -390,8 +387,8 @@ export default function HomePage() {
           <Reveal>
             <p className="lead">
               Entreprises, établissements d&apos;enseignement, institutions et praticiens : le réseau Professional
-              Institute se construit avec des partenaires institutionnels qui partagent une même conviction sur
-              l&apos;avenir de la formation professionnelle.
+              Institute se construit avec des partenaires qui partagent une même exigence pour la formation
+              professionnelle et savent l&apos;adapter à chaque contexte.
             </p>
           </Reveal>
           <div className="publics">

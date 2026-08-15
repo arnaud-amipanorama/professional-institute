@@ -23,10 +23,10 @@ const components = [
 ];
 
 const steps = [
-  { n: 'T—01', t: 'Le cadrage', d: "L'expedition s'ouvre par une mise en perspective : le secteur, la ville, les questions que le groupe vient y travailler. Chacun sait ce qu'il vient chercher." },
+  { n: 'T—01', t: 'Le cadrage', d: "L'expédition s'ouvre par une mise en perspective : le secteur, la ville, les questions que le groupe vient y travailler. Chacun sait ce qu'il vient chercher." },
   { n: 'T—02', t: "L'immersion", d: "Le cœur de l'expérience : visites, rencontres, masterclasses et ateliers s'enchaînent selon l'architecture conçue en amont. Les sessions pédagogiques donnent les clés de lecture de ce que le groupe observe." },
   { n: 'T—03', t: 'La confrontation', d: 'Études de cas et travaux de groupe : les participants confrontent ce qu\'ils ont vu à leurs propres pratiques, métiers et organisations.' },
-  { n: 'T—04', t: 'La restitution', d: "L'expedition se conclut par une restitution finale — analyses, recommandations, engagements. Ce qui a été appris est formulé, présenté et emporté." }
+  { n: 'T—04', t: 'La restitution', d: "L'expédition se conclut par une restitution finale — analyses, recommandations, engagements. Ce qui a été appris est formulé, présenté et emporté." }
 ];
 
 export default function ExpeditionsPage() {
@@ -59,7 +59,7 @@ export default function ExpeditionsPage() {
               </Reveal>
               <Reveal delay={0.1}>
                 <p>
-                  Pendant une expedition, le groupe ne se déplace pas pour assister à des cours ailleurs : la ville
+                  Pendant une expédition, le groupe ne se déplace pas pour assister à des cours ailleurs : la ville
                   elle-même, ses entreprises, ses institutions et ses praticiens constituent le programme. Chaque
                   journée articule des temps d&apos;apprentissage structurés et des temps d&apos;immersion — et
                   c&apos;est leur alternance qui produit la compréhension.
@@ -67,7 +67,7 @@ export default function ExpeditionsPage() {
               </Reveal>
               <Reveal delay={0.2}>
                 <p style={{ marginTop: '1.15em' }}>
-                  Une expedition se conçoit toujours autour d&apos;un fil : un secteur (l&apos;hospitalité à Séville,
+                  Une expédition se conçoit toujours autour d&apos;un fil : un secteur (l&apos;hospitalité à Séville,
                   la finance à Londres, l&apos;IA à Montréal), un enjeu (la transformation d&apos;une industrie,
                   l&apos;internationalisation d&apos;un métier) ou une question posée par le groupe lui-même.
                 </p>
@@ -84,7 +84,7 @@ export default function ExpeditionsPage() {
               <span className="meta">02 — Les composantes</span>
             </Reveal>
             <Reveal>
-              <h2 className="d-l">Ce qu&apos;une expedition peut combiner.</h2>
+              <h2 className="d-l">Ce qu&apos;une expédition peut combiner.</h2>
             </Reveal>
           </div>
           <Reveal>
@@ -98,8 +98,8 @@ export default function ExpeditionsPage() {
           </Reveal>
           <Reveal>
             <p className="idx-note">
-              La combinaison exacte dépend des objectifs du groupe, de la durée et du hub choisi. Aucune expedition ne
-              ressemble à une autre — c&apos;est précisément le principe.
+              La combinaison exacte dépend des objectifs du groupe, de la durée et de la ville mobilisée. Aucune
+              expédition ne ressemble à une autre — c&apos;est précisément le principe.
             </p>
           </Reveal>
         </div>
@@ -114,7 +114,7 @@ export default function ExpeditionsPage() {
               <span className="meta">03 — L&apos;anatomie</span>
             </Reveal>
             <Reveal>
-              <h2 className="d-l">Le rythme d&apos;une expedition.</h2>
+              <h2 className="d-l">Le rythme d&apos;une expédition.</h2>
             </Reveal>
           </div>
           {steps.map((s, i) => (
@@ -132,17 +132,17 @@ export default function ExpeditionsPage() {
       <section className="prefoot section">
         <div className="wrap">
           <Reveal>
-            <span className="meta meta--laiton">Concevoir une expedition</span>
+            <span className="meta meta--laiton">Concevoir une expédition</span>
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="d-l" style={{ marginTop: 16, maxWidth: '24ch' }}>
-              Dix hubs, tous les secteurs, un fil à définir ensemble.
+              Un réseau de villes, tous les secteurs, un fil à définir ensemble.
             </h2>
           </Reveal>
           <Reveal delay={0.2}>
             <div className="actions">
               <LinkQ href="/contact">Échanger avec notre équipe</LinkQ>
-              <LinkQ href="/reseau">Explorer les hubs</LinkQ>
+              <LinkQ href="/reseau">Explorer les villes</LinkQ>
             </div>
           </Reveal>
         </div>

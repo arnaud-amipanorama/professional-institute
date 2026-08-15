@@ -95,8 +95,8 @@ export default function PerspectivesPage() {
               <div className="body-copy">
                 <p>
                   Perspectives publie ce que Professional Institute pense : des essais, des analyses et des études de
-                  cas issus de nos programmes, de notre Faculty et de notre réseau. La revue est le lieu où notre
-                  doctrine se travaille en public. Ses annonces — nouveaux hubs, nouveaux programmes, nouvelles
+                  cas issus de nos programmes, de nos praticiens et de notre réseau. La revue est le lieu où notre
+                  doctrine se travaille en public. Ses annonces — nouveaux projets de villes, programmes et
                   publications — y paraissent en premier.
                 </p>
               </div>

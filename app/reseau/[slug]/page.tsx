@@ -15,7 +15,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const hub = getHub(params.slug);
   if (!hub) return {};
   return pageMeta(
-    `${hub.city} — Professional Learning Hub`,
+    `${hub.city} — Ville de référence`,
     hub.ambiance,
     `/reseau/${hub.slug}`
   );
@@ -41,7 +41,7 @@ export default function HubPage({ params }: { params: { slug: string } }) {
           <p className="lead">{hub.ambiance}</p>
           <div style={{ marginTop: 'clamp(22px,3vw,32px)', display: 'flex', gap: 28, flexWrap: 'wrap' }}>
             <span className="meta">{hub.coord}</span>
-            <span className="meta meta--laiton">Professional Learning Hub</span>
+            <span className="meta meta--laiton">Ville de référence du réseau</span>
           </div>
         </div>
       </header>
@@ -95,8 +95,8 @@ export default function HubPage({ params }: { params: { slug: string } }) {
               </Reveal>
               <Reveal delay={0.1}>
                 <p className="idx-note">
-                  Comme chaque hub du réseau, {hub.city} accueille des programmes dans toutes les disciplines. Les
-                  spécialisations signalent ce que la ville enseigne mieux que toute autre — jamais une limite.
+                  Dans le réseau, {hub.city} peut être mobilisée pour des programmes dans de nombreuses disciplines.
+                  Ses spécialisations indiquent ce que la ville peut apporter à une expérience — jamais une limite.
                 </p>
               </Reveal>
             </div>
@@ -107,7 +107,7 @@ export default function HubPage({ params }: { params: { slug: string } }) {
       <section className="prefoot section">
         <div className="wrap">
           <Reveal>
-            <span className="meta meta--laiton">Concevoir un programme à {hub.city}</span>
+            <span className="meta meta--laiton">Concevoir un programme avec le réseau à {hub.city}</span>
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="d-l" style={{ marginTop: 16, maxWidth: '24ch' }}>

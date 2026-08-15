@@ -136,7 +136,7 @@ export default function AIPage() {
               <span className="meta">04 — Les formats</span>
             </Reveal>
             <Reveal>
-              <h2 className="d-l">Du workshop d&apos;une journée à l&apos;expedition IA.</h2>
+              <h2 className="d-l">Du workshop d&apos;une journée à l&apos;expédition IA.</h2>
             </Reveal>
           </div>
           <div className="bricks">
@@ -153,7 +153,7 @@ export default function AIPage() {
             <Reveal delay={0.16} className="brick">
               <span className="meta meta--laiton">AI—03</span>
               <h3>AI Learning Expedition</h3>
-              <p>Une immersion complète dans un écosystème d&apos;intelligence artificielle — Montréal, capitale mondiale de la recherche en IA, est notre terrain de prédilection.</p>
+              <p>Une immersion complète dans un écosystème d&apos;intelligence artificielle — Montréal, l&apos;un des principaux pôles internationaux de recherche en IA, est un terrain de référence pour ces programmes.</p>
             </Reveal>
           </div>
           <Reveal>

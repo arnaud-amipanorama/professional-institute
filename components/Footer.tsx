@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="f-top">
           <div>
             <div className="f-word">
-              <span className="q">Réseau mondial</span>Professional Institute
+              <span className="q">Réseau international</span>Professional Institute
             </div>
             <p className="f-tag">Former les professionnels de demain par l&apos;immersion internationale.</p>
           </div>
@@ -29,14 +29,14 @@ export default function Footer() {
           <div className="f-col">
             <span className="meta">L&apos;institution</span>
             <Link href="/manifeste">Manifeste</Link>
-            <Link href="/reseau">Professional Learning Hubs</Link>
+            <Link href="/reseau">Villes de référence</Link>
             <Link href="/partenaires">Partenaires institutionnels</Link>
             <Link href="/contact">Contact</Link>
           </div>
         </div>
         <div className="f-bottom">
           <span>© {new Date().getFullYear()} Professional Institute Group</span>
-          <span>FR / EN</span>
+          <span>Réseau en développement</span>
           <span>
             <Link href="/mentions-legales">Mentions légales</Link> · <Link href="/confidentialite">Confidentialité</Link>
           </span>

@@ -35,7 +35,7 @@ export default function ContactPage() {
               </p>
               <p style={{ fontSize: 14.5, color: 'var(--ink-soft)', lineHeight: 2, marginTop: 22 }}>
                 <span className="meta" style={{ display: 'block', marginBottom: 2 }}>
-                  Réseau
+                  Villes de référence
                 </span>
                 Montréal · New York · Miami
                 <br />

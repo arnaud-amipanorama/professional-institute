@@ -33,10 +33,10 @@ export const hubs: Hub[] = [
     instituteId: 'api',
     coord: '45.5019° N — 73.5674° O',
     ambiance:
-      "La capitale mondiale de la recherche en IA parle deux langues et travaille entre deux continents. On y apprend l'Amérique — en français.",
+      "Un grand pôle de recherche en IA, bilingue et nord-américain. Une ville de référence pour découvrir les codes professionnels du continent.",
     story: [
-      "Montréal occupe une position que nulle autre ville ne peut revendiquer : une métropole nord-américaine qui pense, travaille et décide en deux langues. Pour un participant francophone, c'est la porte d'entrée idéale vers les codes professionnels du continent — sans que la langue soit un mur.",
-      "C'est aussi l'un des premiers écosystèmes mondiaux de recherche en intelligence artificielle, un territoire d'innovation, de création et d'entrepreneuriat où les industries — du jeu vidéo à l'aérospatiale, de l'hôtellerie au design — se laissent approcher. Les programmes y couvrent toutes les disciplines : IA et innovation bien sûr, mais aussi business, ressources humaines, marketing, hôtellerie et créativité."
+      "Montréal associe une culture professionnelle nord-américaine à une pratique quotidienne du français et de l'anglais. Pour un participant francophone, c'est une porte d'entrée accessible vers les codes de travail du continent.",
+      "La ville compte parmi les principaux écosystèmes de recherche en intelligence artificielle et réunit des acteurs de l'innovation, de la création et de l'entrepreneuriat. Selon les projets, les programmes peuvent aborder l'IA, le business, les ressources humaines, le marketing, l'hôtellerie ou la créativité."
     ],
     specs: ['IA · Business · Innovation', 'RH · Marketing · Créativité', 'Hôtellerie · Design · Recherche'],
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Montreal_Skyline_from_Mont_Royal_golden_hour.jpg/3840px-Montreal_Skyline_from_Mont_Royal_golden_hour.jpg',
@@ -48,10 +48,10 @@ export const hubs: Hub[] = [
     instituteId: 'api',
     coord: '40.7128° N — 74.0060° O',
     ambiance:
-      "La ville où chaque industrie a son quartier général. On y apprend l'ambition, la vitesse et l'art de se rendre indispensable.",
+      "Une ville de référence pour observer finance, médias, conseil et entrepreneuriat à l'échelle internationale.",
     story: [
-      "Il n'existe pas de meilleure salle de classe que New York pour comprendre comment les industries se dirigent. La finance, les médias, le conseil, la mode, l'immobilier : chaque secteur y a son état-major, ses codes et son rythme.",
-      "Les programmes new-yorkais confrontent les participants à cette intensité : rencontres de dirigeants, immersions dans les quartiers d'affaires, études de cas menées là où elles se sont jouées. On en revient avec autre chose que des connaissances — une échelle de référence."
+      "New York rassemble des acteurs majeurs de la finance, des médias, du conseil, de la mode et de l'immobilier. C'est un environnement précieux pour comprendre les rythmes, les exigences et les codes de secteurs très internationalisés.",
+      "Les programmes conçus à New York peuvent associer rencontres de dirigeants, immersions dans les quartiers d'affaires et études de cas. L'objectif est de donner aux participants des repères concrets, à rapporter dans leur propre pratique."
     ],
     specs: ['Finance · Médias · Consulting', 'Entrepreneuriat · Business international', 'Marketing · RH'],
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/New_York_City_skyline_with_Statue_of_Liberty_at_dusk_aerial_2018.jpg/3840px-New_York_City_skyline_with_Statue_of_Liberty_at_dusk_aerial_2018.jpg',
@@ -63,10 +63,10 @@ export const hubs: Hub[] = [
     instituteId: 'api',
     coord: '25.7617° N — 80.1918° O',
     ambiance:
-      "La porte de l'Amérique latine et l'un des laboratoires du commerce international. Une ville qui travaille en deux langues et sur deux hémisphères.",
+      "Une porte d'entrée vers l'Amérique latine et un environnement dynamique pour le commerce international.",
     story: [
-      "Miami est devenue en une décennie l'une des places d'affaires les plus singulières du continent : capitale officieuse de l'Amérique latine, hub du commerce international, terrain d'expansion de la tech et de la finance, et l'un des marchés d'hospitality et d'immobilier les plus dynamiques au monde.",
-      "On y apprend ce que peu d'autres villes enseignent : travailler entre deux hémisphères, en deux langues, dans des industries — luxe, hospitality, immobilier — où la relation est le produit."
+      "Miami relie étroitement l'Amérique du Nord et l'Amérique latine. Commerce international, tech, finance, hospitality et immobilier y offrent des angles concrets pour comprendre des marchés en mouvement.",
+      "Les programmes peuvent y travailler la relation client, le développement international, l'hospitality ou l'immobilier, en tenant compte du contexte biculturel et bilingue de la ville."
     ],
     specs: ['Amérique latine · Commerce international', 'Hospitality · Immobilier', 'Luxury · Tech'],
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Twilight_Miami_Skyline.jpg/3840px-Twilight_Miami_Skyline.jpg',
@@ -78,9 +78,9 @@ export const hubs: Hub[] = [
     instituteId: 'epi',
     coord: '37.3891° N — 5.9845° O',
     ambiance:
-      "L'Andalousie enseigne ce que les manuels ignorent : l'hospitalité comme industrie, le patrimoine comme économie, la relation comme métier.",
+      "Une ville de référence pour comprendre l'hospitalité, le tourisme, le commerce et l'économie du patrimoine.",
     story: [
-      "Séville est l'une des grandes écoles informelles de l'économie de l'expérience. Le tourisme et l'hospitalité y sont des industries de premier plan, pratiquées avec un savoir-faire que le monde entier vient observer ; le patrimoine y est une économie vivante, pas un décor.",
+      "Séville offre un terrain riche pour étudier l'économie de l'expérience. Le tourisme et l'hospitalité y tiennent une place importante, tandis que le patrimoine participe pleinement à la vie économique de la ville.",
       "Les programmes sévillans plongent les participants dans cette réalité : commerce, marketing, développement international et entrepreneuriat s'y apprennent au contact d'un tissu d'entreprises où la relation humaine reste la première compétence professionnelle."
     ],
     specs: ['Tourisme · Hospitality · Commerce', 'Marketing · Développement international', 'Entrepreneuriat'],
@@ -93,9 +93,9 @@ export const hubs: Hub[] = [
     instituteId: 'epi',
     coord: '51.5074° N — 0.1278° O',
     ambiance:
-      'Le carrefour où le monde entier vient faire des affaires. On y apprend à travailler avec toutes les cultures à la fois.',
+      'Un carrefour international pour la finance, le conseil, le droit et les échanges multiculturels.',
     story: [
-      "Londres reste l'endroit du monde où le plus grand nombre de cultures professionnelles se rencontrent pour travailler ensemble. La finance, le droit, le conseil et l'innovation s'y pratiquent à l'échelle globale, dans une langue et selon des codes qui font référence partout.",
+      "Londres réunit des cultures professionnelles très diverses. La finance, le droit, le conseil et l'innovation s'y pratiquent à l'échelle internationale, dans un environnement où la précision et la diversité des interlocuteurs comptent beaucoup.",
       "Un programme londonien est une immersion dans le business international à l'état pur : on y apprend la précision des institutions, la diversité des interlocuteurs et l'art de la négociation entre cultures."
     ],
     specs: ['Finance · Conseil · Legal', 'International Business · Innovation'],
@@ -108,9 +108,9 @@ export const hubs: Hub[] = [
     instituteId: 'epi',
     coord: '52.5200° N — 13.4050° E',
     ambiance:
-      "La ville qui s'est réinventée plus souvent qu'aucune autre. On y apprend la transformation — industrielle, créative, politique.",
+      "Un terrain particulièrement parlant pour travailler la transformation industrielle, créative et urbaine.",
     story: [
-      "Aucune grande ville européenne ne s'est transformée aussi souvent, ni aussi profondément, que Berlin. C'est ce qui en fait un terrain d'apprentissage unique : la transformation n'y est pas un concept de séminaire, c'est l'histoire de chaque quartier.",
+      "Berlin s'est profondément transformée au cours des dernières décennies. Cette histoire en fait un terrain pertinent pour étudier l'évolution des organisations, des industries et des quartiers.",
       "Entre l'industrie allemande, l'un des écosystèmes startup les plus actifs du continent et une scène créative de premier plan, les programmes berlinois enseignent comment les organisations changent — et ce que cela coûte, exige et permet."
     ],
     specs: ['Industrie · Startups · Transformation', 'Manufacturing · Créativité'],
@@ -153,10 +153,10 @@ export const hubs: Hub[] = [
     instituteId: 'gln',
     coord: '31.6295° N — 7.9811° O',
     ambiance:
-      "L'une des capitales mondiales de l'hospitalité de luxe, et une porte d'entrée sur les économies africaines en pleine construction.",
+      "Une destination de référence pour l'hospitalité et une ouverture vers plusieurs économies africaines.",
     story: [
-      "Marrakech concentre deux apprentissages rares. Le premier : l'hospitalité de luxe au plus haut niveau mondial — un art de recevoir dont les plus grandes maisons internationales viennent s'inspirer.",
-      "Le second : une porte d'entrée sur les économies africaines en pleine construction, où le développement et l'entrepreneuriat se pensent à une échelle et à une vitesse que l'Europe a oubliées."
+      "Marrakech permet d'aborder l'hospitalité de luxe, l'art de recevoir et les exigences de service dans un environnement international.",
+      "La ville offre également un point d'entrée pour explorer des dynamiques de développement et d'entrepreneuriat sur le continent africain."
     ],
     specs: ['Hospitality · Luxury · Développement', 'Afrique · Entrepreneuriat'],
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Pavilion_of_the_Menara_Gardens.jpg/3840px-Pavilion_of_the_Menara_Gardens.jpg',
@@ -168,10 +168,10 @@ export const hubs: Hub[] = [
     instituteId: 'gln',
     coord: '37.5665° N — 126.9780° E',
     ambiance:
-      "La ville où l'industrie, le design et la culture avancent à la même vitesse. Le K-Business appris à la source.",
+      "Une ville de référence pour observer les liens entre industrie, technologie, design et culture.",
     story: [
-      "Séoul est le laboratoire de ce que devient une économie quand l'industrie, la technologie, le design et la culture avancent à la même vitesse — et se renforcent mutuellement. Le soft power coréen n'est pas un accident : c'est une stratégie industrielle.",
-      "Les programmes séoulites enseignent le K-Business à la source : innovation, manufacturing, design et management coréen, au contact des organisations qui en ont fait un modèle mondial."
+      "Séoul est un environnement stimulant pour comprendre la manière dont industrie, technologie, design et culture peuvent se renforcer mutuellement. Le soft power coréen s'inscrit dans une stratégie industrielle structurée.",
+      "Les programmes consacrés à Séoul peuvent explorer innovation, manufacturing, design et management coréen, en lien avec les organisations et partenaires mobilisés pour le projet."
     ],
     specs: ['Innovation · Industrie · Tech', 'K-Business · Design · Manufacturing'],
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Han_River_and_Lotte_World_Tower.jpg/3840px-Han_River_and_Lotte_World_Tower.jpg',

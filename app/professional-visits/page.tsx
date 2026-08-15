@@ -11,8 +11,8 @@ export const metadata = pageMeta(
 
 const forms = [
   { n: 'V—01', t: "La visite d'entreprise", d: 'Une organisation accueille le groupe dans ses locaux : découverte du fonctionnement, échanges avec les équipes, observation du travail réel.' },
-  { n: 'V—02', t: "L'intervention de dirigeant", d: "Un dirigeant ou un cadre vient à la rencontre de la délégation : parcours, décisions, vision d'un secteur." },
-  { n: 'V—03', t: 'La rencontre startup', d: 'Un fondateur présente son activité, son marché, ses choix — et se prête au jeu des questions.' },
+  { n: 'V—02', t: "L'intervention d'un dirigeant", d: "Un dirigeant ou un cadre vient à la rencontre de la délégation : parcours, décisions, vision d'un secteur." },
+  { n: 'V—03', t: 'La rencontre avec une start-up', d: 'Un fondateur présente son activité, son marché, ses choix — et se prête au jeu des questions.' },
   { n: 'V—04', t: "L'incubateur ou l'écosystème", d: "Un incubateur, un accélérateur ou un lieu d'innovation ouvre ses portes et raconte comment naissent les entreprises de son territoire." },
   { n: 'V—05', t: "L'institution", d: "Une administration, une organisation internationale ou une association professionnelle reçoit le groupe et explique son rôle dans l'écosystème." },
   { n: 'V—06', t: 'La masterclass en entreprise', d: "Une organisation anime une session pédagogique complète autour de son métier, de ses méthodes ou d'un cas qu'elle a vécu." },
@@ -91,7 +91,7 @@ export default function VisitsPage() {
               <span className="meta">02 — Le réseau mobilisé</span>
             </Reveal>
             <Reveal>
-              <h2 className="d-l">Dix familles d&apos;organisations, sur trois continents.</h2>
+              <h2 className="d-l">Un réseau d&apos;organisations sur trois continents.</h2>
             </Reveal>
           </div>
           <Reveal>

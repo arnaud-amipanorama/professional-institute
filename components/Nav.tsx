@@ -30,7 +30,7 @@ export default function Nav() {
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="wrap nav-inner">
         <Link href="/" className="wordmark">
-          <span className="q">Réseau mondial</span>Professional Institute
+          <span className="q">Réseau international</span>Professional Institute
         </Link>
         <div className={`nav-links ${open ? 'open' : ''}`}>
           {links.map((l) => (
@@ -39,9 +39,7 @@ export default function Nav() {
             </Link>
           ))}
         </div>
-        <span className="nav-lang">
-          <b>FR</b> / EN
-        </span>
+        <span className="nav-lang">Réseau en développement</span>
         <button className="nav-burger" aria-label="Menu" aria-expanded={open} onClick={() => setOpen(!open)}>
           Menu
         </button>
