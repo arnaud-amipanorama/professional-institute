@@ -16,7 +16,7 @@ export default function HomePage() {
         <div className="wrap">
           <FadeIn delay={0}>
             <div className="meta meta--laiton" style={{ marginBottom: 'clamp(22px,3.4vh,38px)' }}>
-              American Professional Group
+              Professional Institute Group
             </div>
           </FadeIn>
           <HeroTitle

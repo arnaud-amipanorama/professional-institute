@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: `%s — ${siteName}`
   },
   description:
-    "American Professional Group conçoit des expériences de formation et de mobilité professionnelle, au contact des entreprises, des villes et des écosystèmes qui font évoluer les métiers.",
+    "Professional Institute Group conçoit des expériences de formation et de mobilité professionnelle, au contact des entreprises, des villes et des écosystèmes qui font évoluer les métiers.",
   icons: { icon: '/favicon.svg' },
   openGraph: { siteName, locale: 'fr_FR', type: 'website' }
 };
