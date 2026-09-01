@@ -7,3 +7,4 @@ out
 
 # Claude Code local config
 .claude/settings.local.json
+.vercel
