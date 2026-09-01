@@ -17,11 +17,11 @@ const plex = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${siteName} — Écosystème mondial de formation professionnelle`,
+    default: `${siteName} — Formation et mobilité professionnelle`,
     template: `%s — ${siteName}`
   },
   description:
-    "Professional Institute conçoit des expériences d'apprentissage qui placent les participants au contact direct du monde professionnel — dans les villes, les entreprises et les institutions où le travail s'invente.",
+    "American Professional Group conçoit des expériences de formation et de mobilité professionnelle, au contact des entreprises, des villes et des écosystèmes qui font évoluer les métiers.",
   icons: { icon: '/favicon.svg' },
   openGraph: { siteName, locale: 'fr_FR', type: 'website' }
 };

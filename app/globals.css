@@ -6,20 +6,20 @@
    PROFESSIONAL INSTITUTE — Design System (Document 001)
    ============================================================ */
 :root{
-  --paper:#FBFAF7;
-  --paper-deep:#F3F1EC;
-  --ink:#101418;
-  --ink-soft:#3D4450;
-  --ink-mute:#7A8290;
-  --bleu:#0A1F3C;
-  --api:#12365B;
-  --epi:#421F2A;
-  --gln:#1E3A31;
-  --outremer:#1D3EC2;
-  --laiton:#A98E5C;
-  --hairline:rgba(16,20,24,.14);
-  --hairline-strong:rgba(16,20,24,.3);
-  --hairline-inv:rgba(251,250,247,.16);
+  --paper:#F7F3EC;
+  --paper-deep:#EAE5DA;
+  --ink:#182634;
+  --ink-soft:#4D5D69;
+  --ink-mute:#74808A;
+  --bleu:#17324D;
+  --api:#274D6B;
+  --epi:#74423B;
+  --gln:#35584D;
+  --outremer:#B65E45;
+  --laiton:#A86642;
+  --hairline:rgba(24,38,52,.14);
+  --hairline-strong:rgba(24,38,52,.3);
+  --hairline-inv:rgba(247,243,236,.16);
   --f-display:'General Sans',ui-sans-serif,system-ui,sans-serif;
   --f-text:var(--font-inter),ui-sans-serif,system-ui,sans-serif;
   --f-meta:var(--font-plex),ui-monospace,monospace;
@@ -241,7 +241,7 @@ a.persp-row:hover h3{color:var(--outremer)}
 .field textarea{min-height:120px;resize:vertical}
 .field input:focus,.field textarea:focus,.field select:focus{outline:none;border-bottom-color:var(--outremer)}
 .btn{display:inline-block;background:var(--bleu);color:var(--paper);font-family:var(--f-display);font-weight:500;font-size:15px;padding:16px 34px;border:none;cursor:pointer;transition:background .35s var(--ease)}
-.btn:hover{background:#0E2A50}
+.btn:hover{background:#274D6B}
 
 /* ————— Pré-footer ————— */
 .prefoot{background:var(--paper-deep)}

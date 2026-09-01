@@ -16,29 +16,29 @@ export default function HomePage() {
         <div className="wrap">
           <FadeIn delay={0}>
             <div className="meta meta--laiton" style={{ marginBottom: 'clamp(22px,3.4vh,38px)' }}>
-              Manifeste — Extrait 01
+              American Professional Group
             </div>
           </FadeIn>
           <HeroTitle
-            lines={['Le monde forme', 'ceux qui le', 'parcourent.']}
+            lines={['Apprendre au contact', 'du monde', 'professionnel.']}
           />
           <FadeIn delay={0.75}>
             <p className="lead" style={{ marginTop: 'clamp(26px,3.6vh,42px)' }}>
-              Professional Institute développe un réseau international de formation professionnelle. Nous concevons
-              des expériences d&apos;apprentissage immersives et sur mesure, au contact des villes, des entreprises et
-              des institutions où les métiers évoluent.
+              Nous concevons, pour les écoles et les entreprises, des expériences de formation et de mobilité
+              professionnelle sur mesure. Des formats concrets, pensés avec les acteurs locaux et adaptés à chaque
+              groupe.
             </p>
           </FadeIn>
           <FadeIn delay={0.95}>
             <div style={{ marginTop: 'clamp(30px,4vh,48px)', display: 'flex', gap: 36, flexWrap: 'wrap' }}>
-              <LinkQ href="/manifeste">Lire le manifeste</LinkQ>
-              <LinkQ href="/reseau">Découvrir le réseau</LinkQ>
+              <LinkQ href="/programs">Découvrir les programmes</LinkQ>
+              <LinkQ href="/contact">Échanger avec nous</LinkQ>
             </div>
           </FadeIn>
         </div>
         <FadeIn delay={1.25} className="hero-foot">
           <div className="wrap" style={{ display: 'flex', justifyContent: 'space-between', gap: 20, flexWrap: 'wrap', width: '100%' }}>
-            <span className="meta">10 villes de référence — 3 continents</span>
+            <span className="meta">Des programmes pensés sur mesure</span>
             <span className="meta">Défiler ↓</span>
           </div>
         </FadeIn>

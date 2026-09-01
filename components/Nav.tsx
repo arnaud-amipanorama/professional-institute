@@ -30,7 +30,7 @@ export default function Nav() {
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="wrap nav-inner">
         <Link href="/" className="wordmark">
-          <span className="q">Réseau international</span>Professional Institute
+          <span className="q">Formation &amp; mobilité professionnelle</span>American Professional Group
         </Link>
         <div className={`nav-links ${open ? 'open' : ''}`}>
           {links.map((l) => (
