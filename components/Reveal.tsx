@@ -9,7 +9,7 @@ type Props = {
   className?: string;
 };
 
-/** Reveal au scroll — opacité + translation, une seule fois. */
+/** Reveal au scroll, opacité + translation, une seule fois. */
 export default function Reveal({ children, delay = 0, className }: Props) {
   return (
     <motion.div

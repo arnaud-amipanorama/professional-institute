@@ -15,7 +15,7 @@ export default function ContactPage() {
           <h1 className="d-xl2">Échanger avec notre équipe.</h1>
           <p className="lead">
             Chaque programme commence par une conversation : vos objectifs, votre groupe, vos échéances.
-            Écrivez-nous — nous répondons personnellement.
+            Contactez nous, nous répondons personnellement.
           </p>
         </div>
       </header>

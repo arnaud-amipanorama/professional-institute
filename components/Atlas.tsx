@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { atlasCities } from '@/lib/atlas';
 
-/** L'Atlas — panneaux de villes plein écran, empilés au scroll (sticky). */
+/** L'Atlas, panneaux de villes plein écran, empilés au scroll (sticky). */
 export default function Atlas() {
   return (
     <div className="atlas">
@@ -13,7 +13,7 @@ export default function Atlas() {
           <div className="veil" />
           <div className="topline">
             <div className="wrap">
-              <span className="meta">Atlas — {String(i + 1).padStart(2, '0')}</span>
+              <span className="meta">Atlas, {String(i + 1).padStart(2, '0')}</span>
               <span className="meta">{c.institute}</span>
             </div>
           </div>

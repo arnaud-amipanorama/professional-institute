@@ -13,7 +13,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const a = getArticle(params.slug);
   if (!a) return {};
-  return pageMeta(a.title, `${a.kind} — ${a.standfirst}`, `/perspectives/${a.slug}`);
+  return pageMeta(a.title, `${a.kind}, ${a.standfirst}`, `/perspectives/${a.slug}`);
 }
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {

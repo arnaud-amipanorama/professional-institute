@@ -17,8 +17,8 @@ const plex = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${siteName} — Formation et mobilité professionnelle`,
-    template: `%s — ${siteName}`
+    default: `${siteName}, Formation et mobilité professionnelle`,
+    template: `%s, ${siteName}`
   },
   description:
     "Professional Institute Group conçoit des expériences de formation et de mobilité professionnelle, au contact des entreprises, des villes et des écosystèmes qui font évoluer les métiers.",
@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr">
       <head>
-        {/* General Sans (registre display) — via Fontshare. À auto-héberger avec la licence définitive. */}
+        {/* General Sans (registre display), via Fontshare. À auto-héberger avec la licence définitive. */}
         <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" rel="stylesheet" />
       </head>
       <body className={`${inter.variable} ${plex.variable}`}>

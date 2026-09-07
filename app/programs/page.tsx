@@ -11,24 +11,24 @@ export const metadata = pageMeta(
 );
 
 const bricks = [
-  { n: 'B—01', t: 'Professional Programs', d: "Programmes structurés autour d'un métier, d'un secteur ou d'une compétence, sur une ou plusieurs semaines." },
-  { n: 'B—02', t: 'Language Learning', d: 'Langues professionnelles et communication en contexte de travail, délivrées avec des centres de langues reconnus.' },
-  { n: 'B—03', t: 'AI Learning', d: "Parcours d'intelligence artificielle appliquée, du socle commun aux usages par fonction." },
-  { n: 'B—04', t: 'Executive Education', d: 'Immersions et programmes de perspective pour dirigeants, cadres et entrepreneurs.' },
-  { n: 'B—05', t: 'Corporate Learning', d: 'Développement des compétences pour les organisations : management, transformation, innovation.' },
-  { n: 'B—06', t: 'Learning Expeditions', d: "Expériences immersives organisées autour d'une ville, d'un secteur ou d'un enjeu professionnel." },
-  { n: 'B—07', t: 'Professional Visits', d: "Immersions au sein d'organisations : visites, rencontres de dirigeants, masterclasses en entreprise." },
-  { n: 'B—08', t: 'Case Studies', d: 'Études de cas réelles, travaillées avec les organisations qui les ont vécues.' },
-  { n: 'B—09', t: 'Workshops', d: 'Ateliers pratiques en petits groupes, animés par des praticiens.' },
-  { n: 'B—10', t: 'Conferences', d: "Interventions d'experts, d'entrepreneurs et de chercheurs, en session plénière." },
-  { n: 'B—11', t: 'Custom Learning Solutions', d: 'Conception entièrement sur mesure, pour les entreprises, institutions, écoles et administrations.' }
+  { n: 'B 01', t: 'Professional Programs', d: "Programmes structurés autour d'un métier, d'un secteur ou d'une compétence, sur une ou plusieurs semaines." },
+  { n: 'B 02', t: 'Language Learning', d: 'Langues professionnelles et communication en contexte de travail, délivrées avec des centres de langues reconnus.' },
+  { n: 'B 03', t: 'AI Learning', d: "Parcours d'intelligence artificielle appliquée, du socle commun aux usages par fonction." },
+  { n: 'B 04', t: 'Executive Education', d: 'Immersions et programmes de perspective pour dirigeants, cadres et entrepreneurs.' },
+  { n: 'B 05', t: 'Corporate Learning', d: 'Développement des compétences pour les organisations : management, transformation, innovation.' },
+  { n: 'B 06', t: 'Learning Expeditions', d: "Expériences immersives organisées autour d'une ville, d'un secteur ou d'un enjeu professionnel." },
+  { n: 'B 07', t: 'Professional Visits', d: "Immersions au sein d'organisations : visites, rencontres de dirigeants, masterclasses en entreprise." },
+  { n: 'B 08', t: 'Case Studies', d: 'Études de cas réelles, travaillées avec les organisations qui les ont vécues.' },
+  { n: 'B 09', t: 'Workshops', d: 'Ateliers pratiques en petits groupes, animés par des praticiens.' },
+  { n: 'B 10', t: 'Conferences', d: "Interventions d'experts, d'entrepreneurs et de chercheurs, en session plénière." },
+  { n: 'B 11', t: 'Custom Learning Solutions', d: 'Conception entièrement sur mesure, pour les entreprises, institutions, écoles et administrations.' }
 ];
 
 const steps = [
-  { n: 'É—01', t: 'Les objectifs', d: "Tout commence par le groupe : son niveau, son métier, ses enjeux, ce que l'expérience doit changer pour lui. Nous définissons ensemble des objectifs d'apprentissage précis." },
-  { n: 'É—02', t: "L'architecture", d: 'Nos ingénieurs pédagogiques assemblent les briques : progression, sessions, rencontres, cas, temps de travail et de restitution. Le hub est choisi pour ce qu\'il enseigne.' },
-  { n: 'É—03', t: 'La délivrance', d: 'Faculty, écoles partenaires, experts et entreprises interviennent selon le programme, sous la coordination académique de Professional Institute.' },
-  { n: 'É—04', t: 'La restitution', d: "Chaque expérience se conclut par une restitution : ce qui a été appris, ce qui sera appliqué, ce qui reste à approfondir. L'apprentissage se mesure à ce qu'il change." }
+  { n: 'É 01', t: 'Les objectifs', d: "Tout commence par le groupe : son niveau, son métier, ses enjeux, ce que l'expérience doit changer pour lui. Nous définissons ensemble des objectifs d'apprentissage précis." },
+  { n: 'É 02', t: "L'architecture", d: 'Nos ingénieurs pédagogiques assemblent les briques : progression, sessions, rencontres, cas, temps de travail et de restitution. Le hub est choisi pour ce qu\'il enseigne.' },
+  { n: 'É 03', t: 'La délivrance', d: 'Faculty, écoles partenaires, experts et entreprises interviennent selon le programme, sous la coordination académique de Professional Institute.' },
+  { n: 'É 04', t: 'La restitution', d: "Chaque expérience se conclut par une restitution : ce qui a été appris, ce qui sera appliqué, ce qui reste à approfondir. L'apprentissage se mesure à ce qu'il change." }
 ];
 
 export default function ProgramsPage() {
@@ -43,7 +43,7 @@ export default function ProgramsPage() {
           <h1 className="d-xl2">Nous ne vendons pas un catalogue. Nous concevons des expériences.</h1>
           <p className="lead">
             Professional Institute est une institution de conception pédagogique. Chaque programme est construit à
-            partir des objectifs d&apos;un groupe — établissement, entreprise ou institution — en assemblant les
+            partir des objectifs d&apos;un groupe, établissement, entreprise ou institution, en assemblant les
             briques d&apos;apprentissage que ces objectifs exigent.
           </p>
         </div>
@@ -53,7 +53,7 @@ export default function ProgramsPage() {
         <div className="wrap">
           <div className="grid-230">
             <Reveal>
-              <span className="meta">01 — Le modèle</span>
+              <span className="meta">01, Le modèle</span>
             </Reveal>
             <div className="body-copy">
               <Reveal>
@@ -72,7 +72,7 @@ export default function ProgramsPage() {
                   Quels que soient les intervenants et les lieux, Professional Institute conserve trois choses : la
                   conception pédagogique, la cohérence académique et la coordination globale. C&apos;est ce qui
                   garantit qu&apos;une expérience signée Professional Institute reste une expérience Professional
-                  Institute — à Montréal comme à Séoul.
+                  Institute, à Montréal comme à Séoul.
                 </p>
               </Reveal>
             </div>
@@ -84,7 +84,7 @@ export default function ProgramsPage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">02 — Les briques</span>
+              <span className="meta">02, Les briques</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Onze briques pédagogiques. Des combinaisons infinies.</h2>
@@ -103,7 +103,7 @@ export default function ProgramsPage() {
             <p className="idx-note">
               Toutes les briques se combinent. Une semaine peut associer sessions, visites professionnelles, étude de
               cas et restitution finale ; un programme d&apos;un semestre peut alterner apprentissage de langue,
-              immersions et workshops. La combinaison découle toujours des objectifs — jamais l&apos;inverse.
+              immersions et workshops. La combinaison découle toujours des objectifs, jamais l&apos;inverse.
             </p>
           </Reveal>
         </div>
@@ -115,7 +115,7 @@ export default function ProgramsPage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">03 — La conception</span>
+              <span className="meta">03, La conception</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Comment un programme se construit.</h2>
@@ -137,7 +137,7 @@ export default function ProgramsPage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">04 — Approfondir</span>
+              <span className="meta">04, Approfondir</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Trois piliers de notre pédagogie ont leur propre page.</h2>

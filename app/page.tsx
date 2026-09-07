@@ -11,7 +11,7 @@ import ParallaxFigure from '@/components/ParallaxFigure';
 export default function HomePage() {
   return (
     <>
-      {/* ============ HERO — OUVERTURE DE MANIFESTE ============ */}
+      {/* ============ HERO, OUVERTURE DE MANIFESTE ============ */}
       <header className="hero">
         <div className="wrap">
           <FadeIn delay={0}>
@@ -51,7 +51,7 @@ export default function HomePage() {
         <div className="wrap">
           <div className="grid-230">
             <Reveal>
-              <span className="meta">01 — L&apos;institution</span>
+              <span className="meta">01, L&apos;institution</span>
             </Reveal>
             <div className="body-copy">
               <Reveal>
@@ -68,9 +68,9 @@ export default function HomePage() {
               <Reveal delay={0.2}>
                 <p>
                   La formation professionnelle a longtemps séparé le lieu où l&apos;on apprend du lieu où l&apos;on
-                  travaille. Nous croyons que cette séparation n&apos;a plus de sens. Les compétences qui comptent —
+                  travaille. Nous croyons que cette séparation n&apos;a plus de sens. Les compétences qui comptent
                   la maîtrise d&apos;un métier, l&apos;aisance internationale, la capacité à travailler entre les
-                  cultures — s&apos;acquièrent dans le monde réel, au contact de celles et ceux qui le font.
+                  cultures, s&apos;acquièrent dans le monde réel, au contact de celles et ceux qui le font.
                 </p>
               </Reveal>
               <Reveal delay={0.3}>
@@ -91,7 +91,7 @@ export default function HomePage() {
             <ParallaxFigure
               src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=2880"
               alt="Un praticien s'adresse à une promotion de participants lors d'une masterclass"
-              captionLeft="Masterclass — un praticien face à sa promotion · I"
+              captionLeft="Masterclass, un praticien face à sa promotion · I"
               captionRight="Fig. 01"
             />
           </Reveal>
@@ -188,7 +188,7 @@ export default function HomePage() {
               <Reveal delay={0.2}>
                 <div className="story">
                   <p>
-                    L&apos;Europe associe des savoir-faire établis, des industries d&apos;excellence et des institutions qui
+                    L&apos;Europe associe des savoir faire établis, des industries d&apos;excellence et des institutions qui
                     structurent durablement les métiers.
                   </p>
                   <p>
@@ -243,8 +243,8 @@ export default function HomePage() {
               </Reveal>
               <Reveal delay={0.2}>
                 <p className="story" style={{ marginTop: 20, maxWidth: '46ch' }}>
-                  Au-delà des deux instituts, Global Learning Network ouvre progressivement de nouveaux terrains
-                  d&apos;apprentissage — Marrakech et Séoul aujourd&apos;hui, d&apos;autres villes demain.
+                  En complément des deux instituts, Global Learning Network ouvre progressivement de nouveaux terrains
+                  d&apos;apprentissage, Marrakech et Séoul aujourd&apos;hui, d&apos;autres villes demain.
                 </p>
               </Reveal>
             </div>
@@ -262,7 +262,7 @@ export default function HomePage() {
         <div className="wrap">
           <div className="sec-head" style={{ marginBottom: 0 }}>
             <Reveal>
-              <span className="meta">03 — L&apos;atlas</span>
+              <span className="meta">03, L&apos;atlas</span>
             </Reveal>
             <div>
               <Reveal>
@@ -284,7 +284,7 @@ export default function HomePage() {
       <section style={{ padding: 'clamp(40px,5vw,60px) 0 0' }}>
         <div className="wrap" style={{ display: 'flex', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap', alignItems: 'baseline' }}>
           <Reveal>
-            <span className="meta">Miami · Rome · Malte · Marrakech · Séoul — un réseau qui continue de se déployer</span>
+            <span className="meta">Miami · Rome · Malte · Marrakech · Séoul, un réseau qui continue de se déployer</span>
           </Reveal>
           <Reveal delay={0.1}>
             <LinkQ href="/reseau">Explorer les dix villes</LinkQ>
@@ -297,7 +297,7 @@ export default function HomePage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">04 — Programs &amp; Solutions</span>
+              <span className="meta">04, Programs &amp; Solutions</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Nous ne vendons pas un catalogue. Nous concevons des expériences.</h2>
@@ -333,21 +333,21 @@ export default function HomePage() {
               </div>
               <div className="ed">
                 <span className="meta">Édition inaugurale</span>
-                <span className="meta">Été 2026 — N° 01</span>
+                <span className="meta">Été 2026, N° 01</span>
               </div>
             </div>
           </Reveal>
           <Reveal>
             <Link href="/perspectives/mobilite-internationale-infrastructure" className="featured" style={{ display: "grid" }}>
-              <span className="kind">Essai — En couverture</span>
+              <span className="kind">Essai, En couverture</span>
               <div>
                 <h3>Pourquoi la mobilité internationale devient une infrastructure de la formation professionnelle</h3>
                 <p className="stand">
                   Pendant des décennies, partir à l&apos;étranger fut un supplément d&apos;âme dans un parcours de
                   formation. Ce temps est terminé : dans les métiers qui comptent, l&apos;international n&apos;est
-                  plus une parenthèse — c&apos;est une infrastructure.
+                  plus une parenthèse, c&apos;est une infrastructure.
                 </p>
-                <span className="meta fmeta">Professional Institute — 5 min de lecture</span>
+                <span className="meta fmeta">Professional Institute, 5 min de lecture</span>
               </div>
             </Link>
           </Reveal>
@@ -355,14 +355,14 @@ export default function HomePage() {
             <Link href="/perspectives" className="persp-row" style={{ display: "grid" }}>
               <span className="kind">Étude de cas</span>
               <h3>Apprendre un métier à Montréal : ce que l&apos;immersion change réellement</h3>
-              <span className="date">2026 — 02</span>
+              <span className="date">2026, 02</span>
             </Link>
           </Reveal>
           <Reveal delay={0.2}>
             <Link href="/perspectives" className="persp-row" style={{ display: "grid" }}>
               <span className="kind">Point de vue</span>
               <h3>L&apos;entreprise comme faculté : repenser qui enseigne</h3>
-              <span className="date">2026 — 03</span>
+              <span className="date">2026, 03</span>
             </Link>
           </Reveal>
           <Reveal>
@@ -378,7 +378,7 @@ export default function HomePage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">06 — Le réseau</span>
+              <span className="meta">06, Le réseau</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Une institution existe par celles et ceux qui la rejoignent.</h2>
@@ -393,10 +393,10 @@ export default function HomePage() {
           </Reveal>
           <div className="publics">
             {[
-              { n: 'N—01', t: 'Entreprises', d: 'Accueillir, intervenir, former. Les entreprises partenaires sont la faculté vivante de nos programmes.' },
-              { n: 'N—02', t: "Établissements d'enseignement", d: 'Écoles, CFA et universités qui intègrent nos expériences d’apprentissage à leurs parcours.' },
-              { n: 'N—03', t: 'Institutions', d: 'Organismes publics et institutionnels engagés dans le développement des compétences internationales.' },
-              { n: 'N—04', t: 'Praticiens', d: 'Entrepreneurs, cadres, experts et chercheurs qui interviennent au sein de nos sessions.' }
+              { n: 'N 01', t: 'Entreprises', d: 'Accueillir, intervenir, former. Les entreprises partenaires sont la faculté vivante de nos programmes.' },
+              { n: 'N 02', t: "Établissements d'enseignement", d: 'Écoles, CFA et universités qui intègrent nos expériences d’apprentissage à leurs parcours.' },
+              { n: 'N 03', t: 'Institutions', d: 'Organismes publics et institutionnels engagés dans le développement des compétences internationales.' },
+              { n: 'N 04', t: 'Praticiens', d: 'Entrepreneurs, cadres, experts et chercheurs qui interviennent au sein de nos sessions.' }
             ].map((p, i) => (
               <Reveal key={p.n} delay={i * 0.1} className="public">
                 <span className="meta meta--laiton">{p.n}</span>

@@ -23,10 +23,10 @@ const components = [
 ];
 
 const steps = [
-  { n: 'T—01', t: 'Le cadrage', d: "L'expédition s'ouvre par une mise en perspective : le secteur, la ville, les questions que le groupe vient y travailler. Chacun sait ce qu'il vient chercher." },
-  { n: 'T—02', t: "L'immersion", d: "Le cœur de l'expérience : visites, rencontres, masterclasses et ateliers s'enchaînent selon l'architecture conçue en amont. Les sessions pédagogiques donnent les clés de lecture de ce que le groupe observe." },
-  { n: 'T—03', t: 'La confrontation', d: 'Études de cas et travaux de groupe : les participants confrontent ce qu\'ils ont vu à leurs propres pratiques, métiers et organisations.' },
-  { n: 'T—04', t: 'La restitution', d: "L'expédition se conclut par une restitution finale — analyses, recommandations, engagements. Ce qui a été appris est formulé, présenté et emporté." }
+  { n: 'T 01', t: 'Le cadrage', d: "L'expédition s'ouvre par une mise en perspective : le secteur, la ville, les questions que le groupe vient y travailler. Chacun sait ce qu'il vient chercher." },
+  { n: 'T 02', t: "L'immersion", d: "Le cœur de l'expérience : visites, rencontres, masterclasses et ateliers s'enchaînent selon l'architecture conçue en amont. Les sessions pédagogiques donnent les clés de lecture de ce que le groupe observe." },
+  { n: 'T 03', t: 'La confrontation', d: 'Études de cas et travaux de groupe : les participants confrontent ce qu\'ils ont vu à leurs propres pratiques, métiers et organisations.' },
+  { n: 'T 04', t: 'La restitution', d: "L'expédition se conclut par une restitution finale, analyses, recommandations, engagements. Ce qui a été appris est formulé, présenté et emporté." }
 ];
 
 export default function ExpeditionsPage() {
@@ -51,7 +51,7 @@ export default function ExpeditionsPage() {
         <div className="wrap">
           <div className="grid-230">
             <Reveal>
-              <span className="meta">01 — Le principe</span>
+              <span className="meta">01, Le principe</span>
             </Reveal>
             <div className="body-copy">
               <Reveal>
@@ -60,8 +60,8 @@ export default function ExpeditionsPage() {
               <Reveal delay={0.1}>
                 <p>
                   Pendant une expédition, le groupe ne se déplace pas pour assister à des cours ailleurs : la ville
-                  elle-même, ses entreprises, ses institutions et ses praticiens constituent le programme. Chaque
-                  journée articule des temps d&apos;apprentissage structurés et des temps d&apos;immersion — et
+                  elle, ses entreprises, ses institutions et ses praticiens constituent le programme. Chaque
+                  journée articule des temps d&apos;apprentissage structurés et des temps d&apos;immersion, et
                   c&apos;est leur alternance qui produit la compréhension.
                 </p>
               </Reveal>
@@ -69,7 +69,7 @@ export default function ExpeditionsPage() {
                 <p style={{ marginTop: '1.15em' }}>
                   Une expédition se conçoit toujours autour d&apos;un fil : un secteur (l&apos;hospitalité à Séville,
                   la finance à Londres, l&apos;IA à Montréal), un enjeu (la transformation d&apos;une industrie,
-                  l&apos;internationalisation d&apos;un métier) ou une question posée par le groupe lui-même.
+                  l&apos;internationalisation d&apos;un métier) ou une question posée par le groupe.
                 </p>
               </Reveal>
             </div>
@@ -81,7 +81,7 @@ export default function ExpeditionsPage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">02 — Les composantes</span>
+              <span className="meta">02, Les composantes</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Ce qu&apos;une expédition peut combiner.</h2>
@@ -99,19 +99,19 @@ export default function ExpeditionsPage() {
           <Reveal>
             <p className="idx-note">
               La combinaison exacte dépend des objectifs du groupe, de la durée et de la ville mobilisée. Aucune
-              expédition ne ressemble à une autre — c&apos;est précisément le principe.
+              expédition ne ressemble à une autre, c&apos;est précisément le principe.
             </p>
           </Reveal>
         </div>
       </section>
 
-      <Doctrine tall quote="On ne visite pas une ville. On apprend ce qu'elle sait faire." refText="Learning Expeditions — principe fondateur" />
+      <Doctrine tall quote="On ne visite pas une ville. On apprend ce qu'elle sait faire." refText="Learning Expeditions, principe fondateur" />
 
       <section>
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">03 — L&apos;anatomie</span>
+              <span className="meta">03, L&apos;anatomie</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Le rythme d&apos;une expédition.</h2>

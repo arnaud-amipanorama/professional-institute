@@ -16,7 +16,7 @@ export default function Footer() {
             <Link href="/reseau#api">American Professional Institute</Link>
             <Link href="/reseau#epi">European Professional Institute</Link>
             <Link href="/reseau#gln">Global Learning Network</Link>
-            <Link href="/perspectives">Perspectives — la revue</Link>
+            <Link href="/perspectives">Perspectives, la revue</Link>
           </div>
           <div className="f-col">
             <span className="meta">Programs</span>

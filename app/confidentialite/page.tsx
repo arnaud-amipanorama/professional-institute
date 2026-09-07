@@ -23,7 +23,7 @@ export default function ConfidentialitePage() {
               <p>
                 Ce site ne dépose aucun cookie publicitaire et n&apos;utilise aucun traceur tiers. Les seules données
                 personnelles collectées sont celles que vous nous transmettez volontairement via le formulaire de
-                contact (nom, organisation, adresse e-mail, message), utilisées uniquement pour répondre à votre
+                contact (nom, organisation, adresse électronique, message), utilisées uniquement pour répondre à votre
                 demande.
                 {/* À compléter avant mise en production : base légale, durée de conservation,
                     responsable de traitement, outil d'analytics éventuel. */}

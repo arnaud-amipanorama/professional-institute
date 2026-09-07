@@ -8,7 +8,7 @@ type Props = {
   label?: string;
 };
 
-/** Bande doctrinale bleue — citation qui respire. */
+/** Bande doctrinale bleue, citation qui respire. */
 export default function Doctrine({ quote, refText, tall, children, label = 'Doctrine' }: Props) {
   return (
     <section className={`doctrine ${tall ? 'doctrine--tall' : ''}`}>

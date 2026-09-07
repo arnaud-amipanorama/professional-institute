@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 /**
- * Formulaire de contact — préparé, non connecté.
+ * Formulaire de contact, préparé, non connecté.
  * Pour l'activer : créer une route app/api/contact/route.ts (ou un service
  * type Resend / Formspree) et remplacer le corps de handleSubmit.
  */
@@ -15,7 +15,7 @@ export default function ContactForm() {
   }
 
   if (sent) {
-    return <p className="lead">Merci. Votre message est bien arrivé — notre équipe vous répond rapidement.</p>;
+    return <p className="lead">Merci. Votre message est bien arrivé, notre équipe vous répond rapidement.</p>;
   }
 
   return (
@@ -29,7 +29,7 @@ export default function ContactForm() {
         <input id="c-org" name="organization" type="text" autoComplete="organization" />
       </div>
       <div className="field">
-        <label htmlFor="c-mail">Adresse e-mail</label>
+        <label htmlFor="c-mail">Adresse électronique</label>
         <input id="c-mail" name="email" type="email" autoComplete="email" required />
       </div>
       <div className="field">

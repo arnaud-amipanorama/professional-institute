@@ -4,18 +4,18 @@ import Doctrine from '@/components/Doctrine';
 import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta(
-  'Entreprises — Corporate Learning',
+  'Entreprises, Corporate Learning',
   'Séminaires, Learning Expeditions et immersions internationales pour les entreprises.',
   '/entreprises'
 );
 
 const reasons = [
-  { n: 'E—01', t: 'Un séminaire', d: "Réunir une équipe hors de ses murs, autour d'un contenu conçu — pas seulement d'un lieu." },
-  { n: 'E—02', t: 'Une Learning Expedition', d: "Explorer un écosystème — l'IA à Montréal, l'hospitalité à Marrakech, l'industrie à Berlin — pour en rapporter des décisions." },
-  { n: 'E—03', t: 'Une réflexion stratégique', d: "Sortir du quotidien pour travailler une question de fond, avec des méthodes d'intelligence collective et des regards extérieurs." },
-  { n: 'E—04', t: 'Une immersion internationale', d: "Confronter ses pratiques à celles d'un autre marché, d'une autre culture de travail, d'un autre continent." },
-  { n: 'E—05', t: 'Un benchmark', d: 'Observer comment d\'autres organisations résolvent les problèmes que vous vous posez.' },
-  { n: 'E—06', t: 'Une montée en compétences', d: "Former une équipe — IA, management, communication, langues — dans un cadre qui accélère l'apprentissage." }
+  { n: 'E 01', t: 'Un séminaire', d: "Réunir une équipe hors de ses murs, autour d'un contenu conçu, pas seulement d'un lieu." },
+  { n: 'E 02', t: 'Une Learning Expedition', d: "Explorer un écosystème, l'IA à Montréal, l'hospitalité à Marrakech, l'industrie à Berlin, pour en rapporter des décisions." },
+  { n: 'E 03', t: 'Une réflexion stratégique', d: "Sortir du quotidien pour travailler une question de fond, avec des méthodes d'intelligence collective et des regards extérieurs." },
+  { n: 'E 04', t: 'Une immersion internationale', d: "Confronter ses pratiques à celles d'un autre marché, d'une autre culture de travail, d'un autre continent." },
+  { n: 'E 05', t: 'Un benchmark', d: 'Observer comment d\'autres organisations résolvent les problèmes que vous vous posez.' },
+  { n: 'E 06', t: 'Une montée en compétences', d: "Former une équipe, IA, management, communication, langues, dans un cadre qui accélère l'apprentissage." }
 ];
 
 const mix = [
@@ -36,7 +36,7 @@ export default function EntreprisesPage() {
         <div className="wrap">
           <div className="crumb">
             <span className="meta meta--laiton">Professional Institute</span>
-            <span className="meta">Entreprises — Corporate Learning</span>
+            <span className="meta">Entreprises, Corporate Learning</span>
           </div>
           <h1 className="d-xl2">Vos équipes apprennent mieux au contact d&apos;autres mondes.</h1>
           <p className="lead">
@@ -51,7 +51,7 @@ export default function EntreprisesPage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">01 — Les raisons de venir</span>
+              <span className="meta">01, Les raisons de venir</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Ce qu&apos;une entreprise vient chercher chez nous.</h2>
@@ -75,7 +75,7 @@ export default function EntreprisesPage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">02 — La composition</span>
+              <span className="meta">02, La composition</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Chaque programme d&apos;entreprise mélange les registres.</h2>
@@ -97,7 +97,7 @@ export default function EntreprisesPage() {
             <Reveal delay={0.1}>
               <div className="body-copy">
                 <p>
-                  Le programme se conçoit à partir de vos objectifs — jamais d&apos;un format standard. Il peut se
+                  Le programme se conçoit à partir de vos objectifs, jamais d&apos;un format standard. Il peut se
                   se dérouler dans l&apos;une des villes de notre réseau, sur plusieurs destinations, ou associer vos
                   propres sites au parcours. Professional Institute en assure la conception pédagogique, la
                   coordination et la cohérence de bout en bout.
@@ -115,7 +115,7 @@ export default function EntreprisesPage() {
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="d-l" style={{ marginTop: 16, maxWidth: '24ch' }}>
-              Parlez-nous de vos équipes et de vos enjeux.
+              Dites nous ce que vos équipes veulent faire évoluer.
             </h2>
           </Reveal>
           <Reveal delay={0.2}>

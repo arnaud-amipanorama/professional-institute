@@ -5,7 +5,7 @@ import { hubsByInstitute, type Hub } from '@/lib/hubs';
 import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta(
-  'Le réseau — Villes de référence',
+  'Le réseau, Villes de référence',
   'Dix villes de référence sur trois continents : American Professional Institute, European Professional Institute et le Global Learning Network.',
   '/reseau'
 );
@@ -65,13 +65,13 @@ export default function ReseauPage() {
         <div className="wrap">
           <div className="crumb">
             <span className="meta meta--laiton">Professional Institute</span>
-            <span className="meta">Le réseau — Villes de référence</span>
+            <span className="meta">Le réseau, Villes de référence</span>
           </div>
           <h1 className="d-xl2">Dix villes de référence. Trois continents. Une même exigence.</h1>
           <p className="lead">
             Professional Institute développe un réseau de villes et de partenaires locaux. Les destinations sont
             activées selon les programmes, les calendriers et les objectifs de chaque groupe. Leur spécialisation
-            indique ce qu&apos;elles peuvent apporter à une expérience — jamais une limite.
+            indique ce qu&apos;elles peuvent apporter à une expérience, jamais une limite.
           </p>
         </div>
       </header>
@@ -81,7 +81,7 @@ export default function ReseauPage() {
         cls="world--api"
         q="American"
         title="Professional Institute"
-        story="Le pôle nord-américain du réseau. Montréal, New York et Miami offrent trois environnements de référence : recherche en intelligence artificielle, finance, écosystèmes créatifs et commerce international. Les programmes y sont activés selon les projets et les partenaires disponibles."
+        story="Le pôle du réseau en Amérique du Nord. Montréal, New York et Miami offrent trois environnements de référence : recherche en intelligence artificielle, finance, écosystèmes créatifs et commerce international. Les programmes y sont activés selon les projets et les partenaires disponibles."
       />
       <HubRows hubs={hubsByInstitute('api')} />
 
@@ -99,7 +99,7 @@ export default function ReseauPage() {
         cls="world--gln"
         q="Global"
         title="Learning Network"
-        story="Au-delà de ses deux instituts, Global Learning Network étend progressivement le réseau vers de nouveaux terrains d'apprentissage, avec des partenaires locaux et une conception pédagogique adaptée à chaque projet."
+        story="En complément de ses deux instituts, Global Learning Network étend progressivement le réseau vers de nouveaux terrains d'apprentissage, avec des partenaires locaux et une conception pédagogique adaptée à chaque projet."
       />
       <HubRows hubs={hubsByInstitute('gln')} />
 
@@ -115,7 +115,7 @@ export default function ReseauPage() {
 
           <Reveal>
             <div className="coming">
-              <span className="meta meta--laiton">Réseau en développement — Vision 2030</span>
+              <span className="meta meta--laiton">Réseau en développement, Vision 2030</span>
               <div className="coming-list">
                 <span>Bucharest</span>
                 <span className="sep">·</span>
@@ -130,7 +130,7 @@ export default function ReseauPage() {
                 <span>Tokyo</span>
               </div>
               <p>
-                Ces projets de villes sont à l&apos;étude ou en préparation. Ils n&apos;accueillent pas encore de programmes — leur
+                Ces projets de villes sont à l&apos;étude ou en préparation. Ils n&apos;accueillent pas encore de programmes, leur
                 ouverture sera annoncée dans Perspectives.
               </p>
             </div>

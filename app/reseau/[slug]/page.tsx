@@ -15,7 +15,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const hub = getHub(params.slug);
   if (!hub) return {};
   return pageMeta(
-    `${hub.city} — Ville de référence`,
+    `${hub.city}, Ville de référence`,
     hub.ambiance,
     `/reseau/${hub.slug}`
   );
@@ -55,7 +55,7 @@ export default function HubPage({ params }: { params: { slug: string } }) {
               </div>
               <figcaption>
                 <span className="meta">
-                  {hub.city} — {hub.coord}
+                  {hub.city}, {hub.coord}
                 </span>
                 <span className="meta">Plan architectural · I</span>
               </figcaption>
@@ -68,7 +68,7 @@ export default function HubPage({ params }: { params: { slug: string } }) {
         <div className="wrap">
           <div className="grid-230">
             <Reveal>
-              <span className="meta">01 — Le terrain</span>
+              <span className="meta">01, Le terrain</span>
             </Reveal>
             <div className="body-copy">
               {hub.story.map((p, i) => (
@@ -81,7 +81,7 @@ export default function HubPage({ params }: { params: { slug: string } }) {
 
           <div className="grid-230" style={{ marginTop: 'clamp(44px,5vw,64px)' }}>
             <Reveal>
-              <span className="meta">02 — Les spécialisations</span>
+              <span className="meta">02, Les spécialisations</span>
             </Reveal>
             <div>
               <Reveal>
@@ -96,7 +96,7 @@ export default function HubPage({ params }: { params: { slug: string } }) {
               <Reveal delay={0.1}>
                 <p className="idx-note">
                   Dans le réseau, {hub.city} peut être mobilisée pour des programmes dans de nombreuses disciplines.
-                  Ses spécialisations indiquent ce que la ville peut apporter à une expérience — jamais une limite.
+                  Ses spécialisations indiquent ce que la ville peut apporter à une expérience, jamais une limite.
                 </p>
               </Reveal>
             </div>

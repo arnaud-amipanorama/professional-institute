@@ -10,13 +10,13 @@ export const metadata = pageMeta(
 );
 
 const forms = [
-  { n: 'V—01', t: "La visite d'entreprise", d: 'Une organisation accueille le groupe dans ses locaux : découverte du fonctionnement, échanges avec les équipes, observation du travail réel.' },
-  { n: 'V—02', t: "L'intervention d'un dirigeant", d: "Un dirigeant ou un cadre vient à la rencontre de la délégation : parcours, décisions, vision d'un secteur." },
-  { n: 'V—03', t: 'La rencontre avec une start-up', d: 'Un fondateur présente son activité, son marché, ses choix — et se prête au jeu des questions.' },
-  { n: 'V—04', t: "L'incubateur ou l'écosystème", d: "Un incubateur, un accélérateur ou un lieu d'innovation ouvre ses portes et raconte comment naissent les entreprises de son territoire." },
-  { n: 'V—05', t: "L'institution", d: "Une administration, une organisation internationale ou une association professionnelle reçoit le groupe et explique son rôle dans l'écosystème." },
-  { n: 'V—06', t: 'La masterclass en entreprise', d: "Une organisation anime une session pédagogique complète autour de son métier, de ses méthodes ou d'un cas qu'elle a vécu." },
-  { n: 'V—07', t: "L'échange d'expert", d: 'Un expert indépendant — consultant, chercheur, praticien — travaille avec les participants sur une question précise.' }
+  { n: 'V 01', t: "La visite d'entreprise", d: 'Une organisation accueille le groupe dans ses locaux : découverte du fonctionnement, échanges avec les équipes, observation du travail réel.' },
+  { n: 'V 02', t: "L'intervention d'un dirigeant", d: "Un dirigeant ou un cadre vient à la rencontre de la délégation : parcours, décisions, vision d'un secteur." },
+  { n: 'V 03', t: 'La rencontre avec une jeune entreprise', d: 'Un fondateur présente son activité, son marché, ses choix, et se prête au jeu des questions.' },
+  { n: 'V 04', t: "L'incubateur ou l'écosystème", d: "Un incubateur, un accélérateur ou un lieu d'innovation ouvre ses portes et raconte comment naissent les entreprises de son territoire." },
+  { n: 'V 05', t: "L'institution", d: "Une administration, une organisation internationale ou une association professionnelle reçoit le groupe et explique son rôle dans l'écosystème." },
+  { n: 'V 06', t: 'La masterclass en entreprise', d: "Une organisation anime une session pédagogique complète autour de son métier, de ses méthodes ou d'un cas qu'elle a vécu." },
+  { n: 'V 07', t: "L'échange d'expert", d: 'Un expert indépendant, consultant, chercheur, praticien, travaille avec les participants sur une question précise.' }
 ];
 
 const network = [
@@ -54,7 +54,7 @@ export default function VisitsPage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">01 — Les formes</span>
+              <span className="meta">01, Les formes</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Une immersion peut prendre plusieurs visages.</h2>
@@ -88,7 +88,7 @@ export default function VisitsPage() {
         <div className="wrap">
           <div className="sec-head">
             <Reveal>
-              <span className="meta">02 — Le réseau mobilisé</span>
+              <span className="meta">02, Le réseau mobilisé</span>
             </Reveal>
             <Reveal>
               <h2 className="d-l">Un réseau d&apos;organisations sur trois continents.</h2>
@@ -111,7 +111,7 @@ export default function VisitsPage() {
               <div className="body-copy">
                 <p>
                   Le réseau mobilisé varie selon les programmes, les calendriers et les disponibilités des
-                  organisations. Nous concevons chaque immersion à partir des objectifs pédagogiques du groupe —
+                  organisations. Nous concevons chaque immersion à partir des objectifs pédagogiques du groupe
                   jamais à partir d&apos;une liste figée d&apos;entreprises. C&apos;est cette exigence qui garantit
                   que chaque rencontre a une raison d&apos;être dans le programme.
                 </p>

@@ -5,14 +5,14 @@ import { articles, readingTime } from '@/lib/perspectives';
 import { pageMeta } from '@/lib/seo';
 
 export const metadata = pageMeta(
-  'Perspectives — La revue',
+  'Perspectives, La revue',
   "Idées, analyses et études de cas sur l'avenir de la formation professionnelle.",
   '/perspectives'
 );
 
 const upcoming = [
   { kind: 'Étude de cas', t: "Apprendre un métier à Montréal : ce que l'immersion change réellement" },
-  { kind: 'Analyse', t: 'Ce que les compétences globales veulent dire — et comment elles s\u2019évaluent' }
+  { kind: 'Analyse', t: 'Ce que les compétences globales veulent dire, et comment elles s\u2019évaluent' }
 ];
 
 export default function PerspectivesPage() {
@@ -27,25 +27,25 @@ export default function PerspectivesPage() {
               <div>
                 <h1 className="mast-title">Perspectives</h1>
                 <p className="sub">
-                  La revue de Professional Institute — idées, analyses et études de cas sur l&apos;avenir de la
+                  La revue de Professional Institute, idées, analyses et études de cas sur l&apos;avenir de la
                   formation professionnelle.
                 </p>
               </div>
               <div className="ed">
                 <span className="meta">Édition inaugurale</span>
-                <span className="meta">Été 2026 — N° 01</span>
+                <span className="meta">Été 2026, N° 01</span>
               </div>
             </div>
           </Reveal>
 
           <Reveal>
             <Link href={`/perspectives/${featured.slug}`} className="featured" style={{ display: 'grid' }}>
-              <span className="kind">{featured.kind} — En couverture</span>
+              <span className="kind">{featured.kind}, En couverture</span>
               <div>
                 <h3>{featured.title}</h3>
                 <p className="stand">{featured.standfirst}</p>
                 <span className="meta fmeta">
-                  Professional Institute — {readingTime(featured)} min de lecture
+                  Professional Institute, {readingTime(featured)} min de lecture
                 </span>
               </div>
             </Link>
@@ -96,8 +96,8 @@ export default function PerspectivesPage() {
                 <p>
                   Perspectives publie ce que Professional Institute pense : des essais, des analyses et des études de
                   cas issus de nos programmes, de nos praticiens et de notre réseau. La revue est le lieu où notre
-                  doctrine se travaille en public. Ses annonces — nouveaux projets de villes, programmes et
-                  publications — y paraissent en premier.
+                  doctrine se travaille en public. Ses annonces, nouveaux projets de villes, programmes et
+                  publications, y paraissent en premier.
                 </p>
               </div>
             </Reveal>

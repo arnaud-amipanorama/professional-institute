@@ -6,7 +6,7 @@ export default function NotFound() {
       <div className="wrap">
         <span className="meta meta--laiton">Erreur 404</span>
         <h1 className="d-xl2" style={{ marginTop: 20, maxWidth: '18ch' }}>
-          Cette page n&apos;existe pas — ou pas encore.
+          Cette page n&apos;existe pas, ou pas encore.
         </h1>
         <p className="lead" style={{ marginTop: 24 }}>
           Le réseau s&apos;étend, le site aussi. En attendant, tout part d&apos;ici.
